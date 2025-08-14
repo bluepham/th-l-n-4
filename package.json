@@ -1,0 +1,16 @@
+
+{
+  "private": true,
+  "scripts": {
+    "dev": "echo 'Run index.html with a local server. For API, use vercel dev'",
+    "build": "echo 'No build step needed for static assets. Vercel handles API routes.'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@vercel/node": "^3.0.25",
+    "typescript": "^5.3.3"
+  }
+}
